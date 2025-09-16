@@ -1,0 +1,959 @@
+[
+  {
+    "title": "Introduction to Modeling in Epidemiology",
+    "authors": [
+      "Laurence V. Madden",
+      "Gareth Hughes",
+      "Frank van den Bosch"
+    ],
+    "summary": "This chapter introduces the role of models in plant disease epidemiology, emphasizing their use in simplifying complex biological data to understand, predict, compare, and communicate epidemic processes, with a focus on disease intensity over time and space.",
+    "key_variables": [
+      "disease intensity (y or Y)",
+      "time (t)",
+      "distance from inoculum source",
+      "yield loss",
+      "host population size"
+    ],
+    "relationships": [
+      "disease intensity increases over time (disease progress curve)",
+      "disease intensity decreases with distance from inoculum source (disease gradient)",
+      "yield loss correlates with mean disease intensity"
+    ],
+    "id": "Introduction to Modeling in Epidemiology"
+  },
+  {
+    "title": "Scalable Early Detection of Plant-Pathogen Interactions With Airborne Imaging Spectroscopy: A Remote Sensing Approach",
+    "authors": [
+      "Fernando Emiliano Romero Galvan Jr."
+    ],
+    "summary": "This dissertation demonstrates the feasibility of using airborne imaging spectroscopy (e.g., AVIRIS-NG) for early detection of asymptomatic Grapevine Leafroll-associated Virus 3 (GLRaV-3) infections in vineyards, and explores spectral differentiation of grape varietals with cloud-native machine learning workflows for scalable disease monitoring.",
+    "key_variables": [
+      "Grapevine Leafroll-associated Virus 3 (GLRaV-3)",
+      "spectral reflectance",
+      "plant physiological responses",
+      "grape varietals (red/white)",
+      "airborne imaging spectrometer data (e.g., AVIRIS-NG)",
+      "asymptomatic infection stage",
+      "spatial context",
+      "temporal context",
+      "ecological context"
+    ],
+    "relationships": [
+      "Spectral reflectance changes correlate with asymptomatic GLRaV-3 infection",
+      "Imaging spectroscopy data can distinguish between red and white grape varietals",
+      "Machine learning models link physiological plant responses to spectral traits for disease prediction",
+      "Spatial, temporal, and ecological contexts influence model accuracy for disease detection"
+    ],
+    "id": "Scalable Early Detection of Plant-Pathogen Interactions With Airborne Imaging Spectroscopy: A Remote Sensing Approach"
+  },
+  {
+    "title": "Spatial Aspects of Epidemics\u2014II: A Theory of Spatio-Temporal Disease Dynamics",
+    "authors": [
+      "Laurence V. Madden",
+      "Gareth Hughes",
+      "Frank van den Bosch"
+    ],
+    "summary": "This chapter develops mechanistic models for spatio-temporal dynamics of plant disease epidemics, using potato late blight and wheat stripe rust as examples to illustrate large-scale and small-scale spread, respectively. It expands on previous temporal and spatial models to understand disease expansion and control strategies.",
+    "key_variables": [
+      "disease intensity",
+      "dispersal rate",
+      "infection rate",
+      "spore production",
+      "geographical limits",
+      "yield loss",
+      "rate of expansion",
+      "disease foci size",
+      "pathogen presence",
+      "host density",
+      "environmental conditions"
+    ],
+    "relationships": [
+      "Disease intensity increases with time and expands in space due to dispersal of infectious units",
+      "Rate of expansion is influenced by pathogen dispersal mechanisms and environmental factors",
+      "Yield loss is correlated with disease intensity and spread rate",
+      "Disease foci expand radially from infection points due to spore production and dispersal",
+      "Large-scale spread (e.g., potato late blight) occurs wave-like across regions, while small-scale spread (e.g., wheat stripe rust) involves focal expansion in fields"
+    ],
+    "id": "Spatial Aspects of Epidemics\u2014II: A Theory of Spatio-Temporal Disease Dynamics"
+  },
+  {
+    "title": "Climate Change Effects on Pathogen Emergence: Artificial Intelligence to Translate Big Data for Mitigation",
+    "authors": [
+      "K.A. Garrett",
+      "D.P. Bebber",
+      "B.A. Etherton",
+      "K.M. Gold",
+      "A.I. Plex Sul\u00e1",
+      "M.G. Selvaraj"
+    ],
+    "summary": "The paper reviews how artificial intelligence (AI) and machine learning can integrate big data, including climate and remote sensing data, to improve predictive models for plant disease management under climate change, enabling better decision support from farm to global levels.",
+    "key_variables": [
+      "temperature",
+      "precipitation",
+      "humidity",
+      "climate patterns",
+      "weather variability",
+      "extreme weather events",
+      "pathogen invasion risk",
+      "remote sensing data",
+      "crop yield",
+      "disease diagnostics",
+      "geographic risk",
+      "plant health data"
+    ],
+    "relationships": [
+      "Climate change shifts weather patterns, increasing plant disease risk and pathogen invasion potential",
+      "Temperature and moisture availability directly influence plant disease risk",
+      "AI and machine learning integrate big data (e.g., climate, remote sensing) to improve predictive models for disease management",
+      "Decision support systems use AI to provide alerts and target responses based on risk analysis"
+    ],
+    "id": "Climate Change Effects on Pathogen Emergence: Artificial Intelligence to Translate Big Data for Mitigation"
+  },
+  {
+    "title": "Temporal Analysis I: Quantifying and Comparing Epidemics",
+    "authors": [
+      "Laurence V. Madden",
+      "Gareth Hughes",
+      "Frank van den Bosch"
+    ],
+    "summary": "This chapter discusses the characterization of plant disease epidemics through disease progress curves (DPCs), emphasizing the importance of modeling disease intensity over time to understand host-pathogen-environment interactions, compare treatments, and evaluate control strategies.",
+    "key_variables": [
+      "disease intensity (y)",
+      "time (t)",
+      "rate of disease change",
+      "area under the disease progress curve (AUDPC)",
+      "host factors",
+      "pathogen factors",
+      "environmental factors",
+      "treatment effects",
+      "control strategies"
+    ],
+    "relationships": [
+      "Disease intensity (y) changes over time (t) forming a disease progress curve (DPC)",
+      "Host, pathogen, and environmental factors interact to influence disease development",
+      "Control strategies and treatments affect the rate of disease change and final intensity",
+      "AUDPC summarizes overall epidemic severity and allows comparison between treatments",
+      "Repeated-measures ANOVA or AUDPC analysis can determine treatment effects on disease progression"
+    ],
+    "id": "Temporal Analysis I: Quantifying and Comparing Epidemics"
+  },
+  {
+    "title": "Divergent abiotic spectral pathways unravel pathogen stress signals across species",
+    "authors": [
+      "P. J. Zarco-Tejada",
+      "T. Poblete",
+      "C. Camino",
+      "V. Gonzalez-Dugo",
+      "R. Calderon",
+      "A. Hornero",
+      "R. Hernandez-Clemente",
+      "M. Rom\u00e1n-\u00c9cija",
+      "M. P. Velasco-Amo",
+      "B. B. Landa",
+      "P. S. A. Beck",
+      "M. Saponari",
+      "D. Boscia",
+      "J. A. Navas-Cortes"
+    ],
+    "summary": "The study demonstrates that hyperspectral and thermal imaging can distinguish biotic stress from pathogens like Xylella fastidiosa and Verticillium dahliae from abiotic stress (e.g., water stress) with high accuracy (>92%) by identifying pathogen- and host-specific spectral pathways, enabling early detection of infections before visible symptoms appear.",
+    "key_variables": [
+      "hyperspectral reflectance",
+      "thermal emission",
+      "stomatal regulation",
+      "chlorophyll fluorescence",
+      "photosynthesis rate",
+      "transpiration rate",
+      "water stress level",
+      "pathogen infection status",
+      "host species",
+      "spectral pathways"
+    ],
+    "relationships": [
+      "Pathogen infection causes alterations in stomatal regulation, chlorophyll fluorescence, photosynthesis, and transpiration",
+      "These physiological changes produce unique spectral signatures detectable via hyperspectral and thermal imaging",
+      "Spectral pathways are divergent between biotic (pathogen-induced) and abiotic (e.g., water) stresses",
+      "Pathogen-specific spectral fingerprints enable accurate early detection (>92% accuracy) across different hosts and pathosystems"
+    ],
+    "id": "Divergent abiotic spectral pathways unravel pathogen stress signals across species"
+  },
+  {
+    "title": "Emerging Themes and Approaches in Plant Virus Epidemiology",
+    "authors": [
+      "Mike Jeger",
+      "Fred Hamelin",
+      "Nik Cunniffe"
+    ],
+    "summary": "This review identifies recent emerging themes and approaches in plant virus epidemiology, focusing on the impact of climatic fluctuations and change on host-virus-vector interactions, host resistance and tolerance, disease management strategies, computational techniques for parameter estimation, and optimal control analysis for disease control.",
+    "key_variables": [
+      "host plant",
+      "virus",
+      "vector",
+      "environmental factors",
+      "climatic fluctuations",
+      "host resistance",
+      "host tolerance",
+      "farmer behavior",
+      "disease management strategies",
+      "epidemiological parameters",
+      "spatial spread",
+      "temporal disease progress",
+      "co-infections"
+    ],
+    "relationships": [
+      "host-virus-vector-environment interaction affects disease dynamics",
+      "climatic fluctuations disproportionately impact plant, virus, and vector components",
+      "host resistance and tolerance influence disease development and management",
+      "farmer behavior affects deployment of disease control measures",
+      "spatial and temporal factors contribute to disease progress in field populations",
+      "computational techniques estimate epidemiological parameters from field data",
+      "optimal control analysis assesses disease control options"
+    ],
+    "id": "Emerging Themes and Approaches in Plant Virus Epidemiology"
+  },
+  {
+    "title": "Investigating the Latency Period of Grapevine Red Blotch Virus in a Diseased Cabernet franc Vineyard Experiencing Secondary Spread",
+    "authors": [
+      "Madison Flasco",
+      "Elizabeth J. Cieniewicz",
+      "Monica L. Cooper",
+      "Heather McLane",
+      "Marc Fuchs"
+    ],
+    "summary": "This study estimates the latency period of Grapevine Red Blotch Virus (GRBV) in Cabernet franc vines, revealing three distinct patterns of symptom onset after PCR detection, with latency ranging from 4 to 12 months, and confirming secondary spread via Spissistilus festinus.",
+    "key_variables": [
+      "Grapevine Red Blotch Virus (GRBV)",
+      "latency period",
+      "PCR detection",
+      "disease symptoms",
+      "Spissistilus festinus (vector)",
+      "Cabernet franc cultivar",
+      "secondary spread",
+      "incubation period",
+      "symptom onset timing"
+    ],
+    "relationships": [
+      "GRBV infection leads to red blotch disease symptoms after a latency period of 4-12 months",
+      "PCR detection of GRBV precedes symptom onset by 4-12 months in most cases",
+      "Spissistilus festinus is a vector for secondary spread of GRBV",
+      "Symptom onset patterns vary: simultaneous detection and symptoms, or symptoms delayed by 4-12 months after PCR positivity"
+    ],
+    "id": "Investigating the Latency Period of Grapevine Red Blotch Virus in a Diseased Cabernet franc Vineyard Experiencing Secondary Spread"
+  },
+  {
+    "title": "A decade of grapevine red blotch disease epidemiology reveals zonal roguing as novel disease management",
+    "authors": [
+      "M. T. Flasco",
+      "D. W. Heck",
+      "E. J. Cieniewicz",
+      "M. L. Cooper",
+      "S. J. Pethybridge",
+      "M. F. Fuchs"
+    ],
+    "summary": "This study analyzed the spatiotemporal spread of grapevine red blotch virus (GRBV) over a decade in a California vineyard, showing disease incidence increased from 3.9% to 36.4%. Key findings include rapid virus spread near transmission hotspots, influence of precipitation and temperature on epidemic parameters, role of asymptomatic infections in spatial aggregation, and effectiveness of zonal roguing for disease management.",
+    "key_variables": [
+      "GRBV incidence",
+      "disease aggregation",
+      "precipitation",
+      "air temperature",
+      "virus strains (1 and 2)",
+      "asymptomatic infections",
+      "vector population (Spissistilus festinus)",
+      "GRBV titer",
+      "vineyard age",
+      "spatial distribution"
+    ],
+    "relationships": [
+      "Precipitation (3-4 years later) influences epidemic parameters",
+      "Air temperature (same or 1 year later) influences epidemic parameters",
+      "Asymptomatic infections contribute to spatial aggregation",
+      "Secondary spread occurs from diseased to neighboring vines",
+      "Virus influx occurs from background sources",
+      "Vector population peaks correlate with acquisition timing",
+      "Lower GRBV titer in early summer correlates with vector acquisition",
+      "Zonal roguing reduces disease spread"
+    ],
+    "id": "A decade of grapevine red blotch disease epidemiology reveals zonal roguing as novel disease management"
+  },
+  {
+    "title": "Epidemics and Crop Yield",
+    "authors": [
+      "B. M. Cooke",
+      "Laurence V. Madden",
+      "Gareth Hughes",
+      "Frank van den Bosch"
+    ],
+    "summary": "This chapter reviews the complex relationship between plant disease epidemics and crop yield, emphasizing the economic importance of crop loss assessment, historical context, and the development of empirical models to understand how disease intensity affects yield.",
+    "key_variables": [
+      "disease intensity",
+      "crop yield",
+      "yield loss",
+      "epidemic development",
+      "disease incidence",
+      "disease severity",
+      "control methods",
+      "economic impact",
+      "sampling precision"
+    ],
+    "relationships": [
+      "disease intensity negatively correlates with crop yield",
+      "control methods may reduce disease severity but not necessarily increase yield",
+      "epidemic development influences yield loss",
+      "sampling precision affects accuracy of crop loss estimates"
+    ],
+    "id": "Epidemics and Crop Yield"
+  },
+  {
+    "title": "Toward Cloud-Native, Machine Learning Base Detection of Crop Disease With Imaging Spectroscopy",
+    "authors": [
+      "Gloire Rubambiza",
+      "Fernando Romero Galvan",
+      "Ryan Pavlick",
+      "Hakim Weatherspoon",
+      "Kaitlin M. Gold"
+    ],
+    "summary": "This paper presents a cloud-based architecture using spectroscopic imagery and machine learning for early detection of plant diseases, specifically grapevine leafroll-associated virus complex 3 (GLRaV-3), to reduce agricultural losses and improve decision-making for stakeholders.",
+    "key_variables": [
+      "spectroscopic imagery (SI)",
+      "machine learning (ML) models",
+      "grapevine leafroll-associated virus complex 3 (GLRaV-3)",
+      "climate change",
+      "plant pathogens",
+      "hyperspectral satellite data",
+      "cloud computation resources",
+      "stakeholder data privacy"
+    ],
+    "relationships": [
+      "Climate change increases virulence, range, and dispersal of plant pathogens",
+      "SI combined with ML enables accurate disease detection and risk mapping",
+      "Cloud infrastructure facilitates scalable ML deployment for disease detection",
+      "GLRaV-3 causes significant economic losses in grape industry"
+    ],
+    "id": "Toward Cloud-Native, Machine Learning Base Detection of Crop Disease With Imaging Spectroscopy"
+  },
+  {
+    "title": "Compendium of Grape Diseases, Disorders, and Pests, Second Edition",
+    "authors": [
+      "Wayne F. Wilcox",
+      "Walter D. Gubler",
+      "Jerry K. Uyemoto"
+    ],
+    "summary": "A comprehensive reference guide for identifying, managing, and preventing grape diseases, disorders, and pests, updated with advances in research and expanded content including new sections on fungicides and spray technology.",
+    "key_variables": [
+      "fungi",
+      "oomycetes",
+      "bacteria",
+      "phytoplasmas",
+      "viruses",
+      "viruslike agents",
+      "nematodes",
+      "arthropod pests",
+      "abiotic disorders",
+      "environmental conditions",
+      "host plant",
+      "symptoms",
+      "diagnostic features",
+      "etiological agents",
+      "fungicides",
+      "spray technology"
+    ],
+    "relationships": [
+      "Environmental conditions interact with host to cause diseases",
+      "Arthropod pests cause symptoms mistaken for infectious diseases",
+      "Fungicides and spray technology are management techniques for diseases"
+    ],
+    "id": "Compendium of Grape Diseases, Disorders, and Pests, Second Edition"
+  },
+  {
+    "title": "Spatial Aspects of Epidemics\u2014I: Pathogen Dispersal and Disease Gradients",
+    "authors": [
+      "Laurence V. Madden",
+      "Gareth Hughes",
+      "Frank van den Bosch"
+    ],
+    "summary": "This chapter discusses the spatial component of plant disease epidemics, focusing on pathogen dispersal from a single inoculum source and the resulting disease gradients, emphasizing that disease intensity decreases with distance due to short-distance spore movement.",
+    "key_variables": [
+      "inoculum dispersal",
+      "distance from source",
+      "disease intensity",
+      "spore deposition",
+      "infectious units",
+      "propagative units",
+      "host density",
+      "environmental conditions",
+      "spore liberation",
+      "spore transport",
+      "spore deposition"
+    ],
+    "relationships": [
+      "Distance from inoculum source inversely correlates with disease intensity",
+      "Spore deposition decreases with increasing distance from source",
+      "Probability of infection is a function of distance between inoculum and host",
+      "Disease spread results from inoculum dispersal, with new infections occurring near existing ones"
+    ],
+    "id": "Spatial Aspects of Epidemics\u2014I: Pathogen Dispersal and Disease Gradients"
+  },
+  {
+    "title": "Previsual symptoms of Xylella fastidiosa infection revealed in spectral plant-trait alterations",
+    "authors": [
+      "P. J. Zarco-Tejada",
+      "C. Camino",
+      "P. S. A. Beck",
+      "R. Calderon",
+      "A. Hornero",
+      "R. Hern\u00e1ndez-Clemente",
+      "T. Kattenborn",
+      "M. Montes-Borrego",
+      "L. Susca",
+      "M. Morelli",
+      "V. Gonzalez-Dugo",
+      "P. R. J. North",
+      "B. B. Landa",
+      "D. Boscia",
+      "M. Saponari",
+      "J. A. Navas-Cortes"
+    ],
+    "summary": "This study demonstrates that hyperspectral and thermal remote sensing can detect previsual symptoms of Xylella fastidiosa infection in plants by identifying alterations in plant traits such as chlorophyll content, fluorescence efficiency, and pigment indices before visible symptoms appear.",
+    "key_variables": [
+      "Xylella fastidiosa disease severity",
+      "chlorophyll a+b content",
+      "flavonols",
+      "NBI index",
+      "NPQI index",
+      "fluorescence quantum efficiency",
+      "solar-induced chlorophyll fluorescence",
+      "hyperspectral indices (e.g., NDVI, EVI, MCARI)",
+      "thermal data",
+      "leaf reflectance"
+    ],
+    "relationships": [
+      "Xylella fastidiosa infection severity correlates with decreased chlorophyll a+b content",
+      "Increased disease severity is associated with altered flavonol levels",
+      "NPQI index changes with infection severity",
+      "Fluorescence quantum efficiency and solar-induced chlorophyll fluorescence are affected by infection",
+      "Hyperspectral indices (e.g., NDVI, EVI) show significant differences across disease severity levels"
+    ],
+    "id": "Previsual symptoms of Xylella fastidiosa infection revealed in spectral plant-trait alterations"
+  },
+  {
+    "title": "Decision Making in the Practice of Plant Disease Management",
+    "authors": [
+      "Laurence V. Madden",
+      "Gareth Hughes",
+      "Frank van den Bosch"
+    ],
+    "summary": "This chapter discusses evidence-based decision making in plant disease management, focusing on two approaches: sampling for disease intensity classification (acceptance sampling) and predictive modeling using host and environmental data for risk assessment and intervention decisions.",
+    "key_variables": [
+      "disease intensity",
+      "disease incidence",
+      "crop yield loss",
+      "host susceptibility",
+      "environmental conditions",
+      "pathogen presence",
+      "control action threshold",
+      "sampling data",
+      "risk exposure level"
+    ],
+    "relationships": [
+      "disease intensity influences decision for control action",
+      "sampling data classifies disease intensity relative to threshold",
+      "host and environmental data predict disease risk",
+      "risk exposure level determines justification for intervention"
+    ],
+    "id": "Decision Making in the Practice of Plant Disease Management"
+  },
+  {
+    "title": "Opportunities and challenges in combining optical sensing and epidemiological modelling",
+    "authors": [
+      "Alexey Mikaberidze",
+      "C. D. Cruz",
+      "Ayalsew Zerihun",
+      "Abel Barreto",
+      "Pieter Beck",
+      "Roc\u00edo Calder\u00f3n",
+      "Carlos Camino",
+      "Rebecca E. Campbell",
+      "Stephanie K.L. Delalieux",
+      "Fr\u00e9d\u00e9ric Fabre",
+      "Elin Falla",
+      "Stuart Fraser",
+      "Kaitlin M. Gold",
+      "Carlos Gongora-Canul",
+      "Fr\u00e9d\u00e9ric Hamelin",
+      "Dalphy O.C. Harteveld",
+      "Cheng-Fang Hong",
+      "Melen Leclerc",
+      "Da-Young Lee",
+      "Murillo Lobo Jr.",
+      "Anne-Katrin Mahlein",
+      "Emily McLay",
+      "Paul Melloy",
+      "Stephen Parnell",
+      "Uwe Rascher",
+      "Jack Rich",
+      "Irene Salotti",
+      "Samuel Soubeyrand",
+      "Susan Sprague",
+      "Antony Surano",
+      "Sandhya D. Takooree",
+      "Thomas H. Taylor",
+      "Suzanne Touzeau",
+      "Pablo J. Zarco-Tejada",
+      "Nik J. Cunniffe"
+    ],
+    "summary": "This paper reviews the integration of optical sensing technologies (multispectral, hyperspectral, thermal imaging, LiDAR) with epidemiological modeling to improve plant disease prediction and management. It highlights how sensing can enhance model parameterization and host mapping, while modeling can improve data interpretation and sensor deployment, addressing challenges in disease identification, data quality, and emerging diseases.",
+    "key_variables": [
+      "host plant density",
+      "disease incidence",
+      "disease severity",
+      "spatial scale",
+      "temporal scale",
+      "optical reflectance",
+      "vegetation indices",
+      "temperature",
+      "canopy structure",
+      "sensor resolution",
+      "pathogen presence",
+      "environmental conditions"
+    ],
+    "relationships": [
+      "Optical sensing data correlates with disease incidence and severity through changes in reflectance and vegetation indices",
+      "Epidemiological models use sensing data to parameterize host distribution and disease progression",
+      "Sensing improves model accuracy by providing high-resolution spatial and temporal data",
+      "Modeling informs optimal sensor deployment and data interpretation for disease detection"
+    ],
+    "id": "Opportunities and challenges in combining optical sensing and epidemiological modelling"
+  },
+  {
+    "title": "Distinct Red Blotch Disease Epidemiological Dynamics in Two Nearby Vineyards",
+    "authors": [
+      "Madison T. Flasco",
+      "Elizabeth J. Cieniewicz",
+      "Sarah J. Pethybridge",
+      "Marc F. Fuchs"
+    ],
+    "summary": "This study investigates the epidemiological dynamics of Grapevine Red Blotch Virus (GRBV) in two nearby vineyards, revealing distinct patterns of disease spread influenced by initial infection sources (infected planting material vs. vector transmission) and phylogenetic clade distribution.",
+    "key_variables": [
+      "Grapevine Red Blotch Virus (GRBV)",
+      "GRBV clade 1",
+      "GRBV clade 2",
+      "Spissistilus festinus (three-cornered alfalfa hopper)",
+      "disease incidence",
+      "vineyard age",
+      "grape cultivar",
+      "rootstock material",
+      "scion material",
+      "spatial aggregation",
+      "phylogenetic analysis",
+      "symptom expression"
+    ],
+    "relationships": [
+      "GRBV clade 1 and clade 2 isolates cause red blotch disease with no known biological differences",
+      "Infected planting material (rootstock or scion) leads to primary infections and spatial aggregation of diseased vines",
+      "Spissistilus festinus transmits GRBV, facilitating secondary spread and displacement of clades",
+      "Vineyard age and cultivar influence disease incidence and spread dynamics",
+      "Spatial aggregation patterns indicate vector-mediated transmission vs. planting source origins"
+    ],
+    "id": "Distinct Red Blotch Disease Epidemiological Dynamics in Two Nearby Vineyards"
+  },
+  {
+    "title": "Phenotyping grapevine red blotch virus and grapevine leafroll-associated viruses before and after symptom expression through machine-learning analysis of hyperspectral images",
+    "authors": [
+      "Erica Sawyer",
+      "Eve Laroche-Pinel",
+      "Madison Flasco",
+      "Monica L. Cooper",
+      "Benjamin Corrales",
+      "Marc Fuchs",
+      "Luca Brillante"
+    ],
+    "summary": "This study uses hyperspectral imaging and machine learning (Random Forest and 3D-CNN) to detect and differentiate grapevine red blotch virus (GRBV) and grapevine leafroll-associated viruses (GLRaVs) in leaves before and after symptom expression, achieving up to 87% accuracy in binary classification and outperforming visual assessment by experts.",
+    "key_variables": [
+      "hyperspectral reflectance (510-710nm)",
+      "viral infection status (GRBV, GLRaVs, co-infection, healthy)",
+      "symptom expression stage (pre-symptomatic at veraison, symptomatic at mid-ripening)",
+      "leaf visual symptoms (reddening)",
+      "PCR assay results",
+      "machine learning model accuracy",
+      "important wavelengths (green, orange, red subregions)"
+    ],
+    "relationships": [
+      "Hyperspectral reflectance in visible domain (510-710nm) correlates with viral infection status",
+      "Machine learning models (CNN and RF) can classify infection status from hyperspectral data with high accuracy",
+      "Symptomatic stage data reduces false negative rates in detection",
+      "Co-infection with GRBV and GLRaVs is more challenging to differentiate than single infections",
+      "Important wavelengths for detection are in green, orange, and red spectral regions",
+      "Hyperspectral imaging outperforms visual symptom assessment for early and accurate detection"
+    ],
+    "id": "Phenotyping grapevine red blotch virus and grapevine leafroll-associated viruses before and after symptom expression through machine-learning analysis of hyperspectral images"
+  },
+  {
+    "title": "Impact of novel methods and research approaches in plant pathology: Are individual advances sufficient to meet the wider challenges of disease management?",
+    "authors": [
+      "Michael Jeger",
+      "Robert Beresford",
+      "Anna Berlin",
+      "Clive Bock",
+      "Adrian Fox",
+      "Kaitlin M. Gold",
+      "Adrian C Newton",
+      "Antonio Vicent",
+      "Xiangming Xu"
+    ],
+    "summary": "The paper reviews advances in plant pathology, emphasizing the need for integrated systems-level approaches to address multifaceted challenges in disease management, including diagnosis, host resistance, epidemiology, microbiome impacts, climate change effects, and artificial intelligence applications.",
+    "key_variables": [
+      "host genetic diversity",
+      "pathogen resistance",
+      "pesticide resistance",
+      "microbiome composition",
+      "soil microbial diversity",
+      "climate change factors",
+      "pathogen adaptation",
+      "vector populations",
+      "spatiotemporal spread dynamics",
+      "artificial intelligence technologies"
+    ],
+    "relationships": [
+      "Host genetic diversity reduces pathogen aggressiveness and increases yield stability",
+      "Pesticide use leads to resistance development in pathogens and vectors",
+      "Microbiome composition influences disease complexes and plant health",
+      "Climate change affects pathogen adaptation, vector dynamics, and disease spread",
+      "Artificial intelligence aids in diagnosis, surveillance, and predictive modeling of diseases"
+    ],
+    "id": "Impact of novel methods and research approaches in plant pathology: Are individual advances sufficient to meet the wider challenges of disease management?"
+  },
+  {
+    "title": "Temporal Analysis II: The Components of Disease",
+    "authors": [
+      "Laurence V. Madden",
+      "Gareth Hughes",
+      "Frank van den Bosch"
+    ],
+    "summary": "This chapter focuses on modeling polycyclic disease epidemics at the individual infection process level, including latent period, infectious period, and daughter infection formation, to understand population dynamics, epidemic thresholds, initial development, and final disease levels.",
+    "key_variables": [
+      "latent period",
+      "infectious period",
+      "daughter infections",
+      "initial disease incidence (y0)",
+      "disease intensity",
+      "epidemic progress curve shape",
+      "threshold for epidemic development",
+      "final disease level"
+    ],
+    "relationships": [
+      "Latent period, infectious period, and daughter infection formation influence epidemic progress curve shape",
+      "Initial disease incidence (y0) affects epidemic development threshold and initial increase",
+      "Biologically meaningful parameters predict initial disease increase",
+      "Final disease level is determined by epidemic development and management strategies"
+    ],
+    "id": "Temporal Analysis II: The Components of Disease"
+  },
+  {
+    "title": "The Study of Plant Disease Epidemics",
+    "authors": [
+      "Laurence V. Madden",
+      "Gareth Hughes",
+      "Frank van den Bosch"
+    ],
+    "summary": "This chapter introduces plant disease epidemiology, emphasizing that epidemics involve changes in disease intensity over time and space in host populations, with management focused on controlling pathogen population growth rather than individual infections.",
+    "key_variables": [
+      "pathogen_type",
+      "host_population_density",
+      "disease_intensity",
+      "time",
+      "spatial_location",
+      "inoculum_presence",
+      "yield_reduction",
+      "control_costs",
+      "resistant_cultivars",
+      "chemical_control",
+      "biological_control",
+      "cultural_methods"
+    ],
+    "relationships": [
+      "Pathogen presence leads to disease intensity increase in host populations",
+      "Disease intensity correlates with yield reduction and control costs",
+      "Resistant cultivars, chemical control, biological control, and cultural methods reduce disease intensity",
+      "Time and spatial location influence disease intensity dynamics",
+      "Inoculum presence in an area enables disease outbreaks"
+    ],
+    "id": "The Study of Plant Disease Epidemics"
+  },
+  {
+    "title": "Scalable Early Detection of Grapevine Viral Infection with Airborne Imaging Spectroscopy",
+    "authors": [
+      "Fernando E. Romero Galvan",
+      "Ryan Pavlick",
+      "Graham Trolley",
+      "Somil Aggarwal",
+      "Daniel Sousa",
+      "Charles Starr",
+      "Elisabeth Forrestel",
+      "Stephanie Bolton",
+      "Maria del Mar Alsina",
+      "Nick Dokoozlian",
+      "Kaitlin M. Gold"
+    ],
+    "summary": "This study demonstrates that airborne imaging spectroscopy (AVIRIS-NG) can detect grapevine leafroll-associated virus 3 (GLRaV-3) infection in Cabernet Sauvignon grapevines both pre-symptomatically and post-symptomatically with high accuracy (87% for asymptomatic, 85% for combined asymptomatic and symptomatic vines), using non-visible wavelengths to sense physiological changes induced by the virus.",
+    "key_variables": [
+      "GLRaV-3 infection status",
+      "spectroscopic signal (VIS-NIR-SWIR wavelengths)",
+      "plant physiological changes",
+      "foliar chemical composition",
+      "water content",
+      "nutrient content",
+      "photosynthetic capacity",
+      "phenolics and secondary metabolites",
+      "canopy architecture",
+      "symptom visibility"
+    ],
+    "relationships": [
+      "GLRaV-3 infection causes changes in plant physiology and foliar chemistry",
+      "Physiological changes alter spectroscopic signals in non-visible wavelengths",
+      "Spectral data enables differentiation between infected and non-infected vines",
+      "Infection precedes visible symptoms, allowing early detection",
+      "Machine learning models (random forest) correlate spectral features with infection status"
+    ],
+    "id": "Scalable Early Detection of Grapevine Viral Infection with Airborne Imaging Spectroscopy"
+  },
+  {
+    "title": "Temporal Analysis III: Advanced Topics",
+    "authors": [
+      "Laurence V. Madden",
+      "Gareth Hughes",
+      "Frank van den Bosch"
+    ],
+    "summary": "This chapter extends plant disease epidemic models by incorporating crop growth dynamics, continuous primary infections, vectored transmission by insects, and numerical methods for complex scenarios, with applications to virus epidemics and control strategies.",
+    "key_variables": [
+      "crop growth rate",
+      "host population density",
+      "healthy individuals density",
+      "diseased individuals density",
+      "leaf area index",
+      "root mass",
+      "primary infection rate",
+      "vector transmission rate",
+      "pathogen transmission efficiency",
+      "insect vector density",
+      "harvesting rate",
+      "planting rate",
+      "initial disease level",
+      "disease incidence",
+      "epidemic threshold"
+    ],
+    "relationships": [
+      "Crop growth affects host density and disease spread dynamics",
+      "Primary infections over time influence epidemic initiation and progression",
+      "Vector feeding activity transmits pathogens from infected to healthy plants",
+      "Host size changes impact disease dynamics in systemic infections",
+      "Harvesting and planting schedules alter disease carryover between seasons",
+      "Epidemic thresholds can be derived analytically for models with discrete crop events",
+      "Numerical methods are required for complex scenarios beyond analytical solutions"
+    ],
+    "id": "Temporal Analysis III: Advanced Topics"
+  },
+  {
+    "title": "Spatial Aspects of Epidemics\u2014III: Patterns of Plant Disease",
+    "authors": [
+      "Laurence V. Madden",
+      "Gareth Hughes",
+      "Frank van den Bosch"
+    ],
+    "summary": "This chapter discusses the importance of spatial patterns in plant disease epidemiology, emphasizing that patterns are outcomes of dispersal processes and environmental heterogeneity. It highlights how spatial analysis helps infer underlying biological processes, such as pathogen dispersal and vector behavior, and addresses scale dependence in observation and analysis for disease management.",
+    "key_variables": [
+      "spatial patterns of disease",
+      "pathogen dispersal processes",
+      "environmental heterogeneity",
+      "disease intensity",
+      "scale of observation",
+      "vector behavior",
+      "sampling distribution"
+    ],
+    "relationships": [
+      "Spatial patterns are realizations of underlying dispersal processes of pathogens",
+      "Environmental heterogeneity affects spatial patterns of disease",
+      "Disease intensity estimates are influenced by spatial patterns at chosen scales",
+      "Vector behavior (e.g., thrips for TSWV) correlates with spatial patterns of virus spread",
+      "Scale of observation and analysis determines inferences about patterns and processes"
+    ],
+    "id": "Spatial Aspects of Epidemics\u2014III: Patterns of Plant Disease"
+  },
+  {
+    "title": "Grapevine red blotch virus detection in the vineyard: Leveraging machine learning with VIS/NIR hyperspectral images for asymptomatic and symptomatic vines",
+    "authors": [
+      "E. Laroche-Pinel",
+      "K. Singh",
+      "M. Flasco",
+      "M.L. Cooper",
+      "M. Fuchs",
+      "L. Brillante"
+    ],
+    "summary": "This study demonstrates that hyperspectral imaging (510-900 nm) combined with machine learning can detect grapevine red blotch virus (GRBV) in both symptomatic and asymptomatic vines with over 74% accuracy, using spectral features selected via binning and feature selection methods, offering a non-destructive tool for vineyard scouting and disease management.",
+    "key_variables": [
+      "GRBV infection status",
+      "hyperspectral reflectance (VIS/NIR bands 510-900 nm)",
+      "vine phenological stage (pre-veraison, post-veraison, harvest)",
+      "symptom expression (asymptomatic, symptomatic)",
+      "spectral bin width (e.g., 16 nm)",
+      "number of spectral bands used (e.g., 5, 19)",
+      "machine learning algorithm performance (accuracy)"
+    ],
+    "relationships": [
+      "GRBV infection causes changes in hyperspectral reflectance in specific VIS/NIR bands",
+      "symptom expression (peak at harvest) correlates with higher detection accuracy (75.7%)",
+      "asymptomatic vines pre-veraison can be detected with high accuracy (74.2%) using fewer spectral bands",
+      "spectral binning and feature selection methods (e.g., Recursive Feature Elimination) improve model efficiency and reduce dataset size",
+      "hyperspectral imaging enables non-destructive detection of GRBV, facilitating roguing and disease management"
+    ],
+    "id": "Grapevine red blotch virus detection in the vineyard: Leveraging machine learning with VIS/NIR hyperspectral images for asymptomatic and symptomatic vines"
+  },
+  {
+    "title": "Measuring Plant Diseases",
+    "authors": [
+      "Laurence V. Madden",
+      "Gareth Hughes",
+      "Frank van den Bosch"
+    ],
+    "summary": "This chapter discusses the principles and methods for measuring plant disease intensity, emphasizing disease incidence and severity as key metrics for epidemic analysis.",
+    "key_variables": [
+      "disease incidence",
+      "disease severity",
+      "disease prevalence",
+      "host area affected",
+      "number of diseased plants",
+      "proportion of diseased plants",
+      "mean disease severity",
+      "conditional severity"
+    ],
+    "relationships": [
+      "Disease incidence is the proportion or number of diseased plants or plant units",
+      "Disease severity is the (relative or absolute) area of plant tissue affected by disease",
+      "Mean disease severity is the average severity of all assessed plants, including disease-free ones",
+      "Conditional severity is mean severity divided by the proportion of diseased plants"
+    ],
+    "id": "Measuring Plant Diseases"
+  },
+  {
+    "title": "Grapevine Red Blotch Disease: A Threat to the Grape and Wine Industries",
+    "authors": [
+      "Elizabeth Cieniewicz",
+      "Marc Fuchs"
+    ],
+    "summary": "Grapevine red blotch disease, caused by grapevine red blotch virus (GRBV), is a major threat to North American viticulture. The virus is transmitted by the treehopper Spissistilus festinus and causes physiological effects including inhibition of sugar translocation, poor fruit ripening, altered wine quality, and significant economic losses. Research has focused on GRBV biology, transmission, epidemiology, and management strategies.",
+    "key_variables": [
+      "grapevine red blotch virus (GRBV)",
+      "Spissistilus festinus (treehopper vector)",
+      "hexose translocation",
+      "soluble solids content",
+      "titratable acidity",
+      "phenolic extractability",
+      "anthocyanin levels",
+      "photosynthesis rate",
+      "vine vigor",
+      "phytobiome composition",
+      "virus inoculum levels",
+      "vineyard management practices"
+    ],
+    "relationships": [
+      "GRBV infection inhibits hexose translocation from leaves to fruits",
+      "GRBV suppresses phenylpropanoid pathway transcription",
+      "GRBV reduces soluble solids and increases titratable acidity in fruit",
+      "GRBV decreases anthocyanin accumulation and phenolic extractability",
+      "Spissistilus festinus transmits GRBV between grapevines",
+      "GRBV infection leads to poor wine quality (altered aromas, color, mouthfeel)",
+      "Higher virus inoculum levels increase disease spread risk",
+      "Using GRBV-negative planting material reduces disease incidence"
+    ],
+    "id": "Grapevine Red Blotch Disease: A Threat to the Grape and Wine Industries"
+  },
+  {
+    "title": "Epidemiology and Management of Plant Viruses Under a Changing Climate",
+    "authors": [
+      "Michael J. Jeger",
+      "Alberto Fereres",
+      "Carolyn E. Malmstrom",
+      "Kerry E. Mauck",
+      "William M. Wintermantel"
+    ],
+    "summary": "This editorial introduces a special issue on plant virus epidemiology, highlighting challenges such as climate change, globalization, and vector interactions, and summarizing key research on diagnostics, surveillance, modeling, ecology, evolution, and management.",
+    "key_variables": [
+      "climate change",
+      "insect vectors",
+      "virus transmission",
+      "co-infections",
+      "diagnostic methods",
+      "surveillance",
+      "modeling",
+      "virus ecology",
+      "virus evolution",
+      "agricultural practices",
+      "high-throughput sequencing"
+    ],
+    "relationships": [
+      "Climate change influences virus transmission and prevalence",
+      "Insect vectors facilitate virus spread",
+      "Co-infections (e.g., polerovirus and potyvirus) affect disease outcomes",
+      "Agricultural practices may drive virus evolution",
+      "Modeling supports surveillance and predicts virus emergence under climate change",
+      "High-throughput sequencing improves virus detection and understanding of infection dynamics"
+    ],
+    "id": "Epidemiology and Management of Plant Viruses Under a Changing Climate"
+  },
+  {
+    "title": "Estimating Plant Disease by Sampling",
+    "authors": [
+      "Laurence V. Madden",
+      "Gareth Hughes",
+      "Frank van den Bosch"
+    ],
+    "summary": "This chapter discusses the importance of sampling for obtaining quantitative epidemiological data to link theory with practical problem-solving in plant disease management, covering sampling terminology, sample size calculation, and reliability considerations.",
+    "key_variables": [
+      "disease incidence",
+      "sampling unit",
+      "sample size",
+      "population variance",
+      "confidence interval",
+      "reliability",
+      "accuracy",
+      "bias"
+    ],
+    "relationships": [
+      "Sampling provides data to estimate population parameters like mean disease incidence",
+      "Sample size affects reliability and precision of disease estimates",
+      "Population variance influences required sample size for desired confidence intervals",
+      "Bias occurs when sample estimates consistently deviate from true population values"
+    ],
+    "id": "Estimating Plant Disease by Sampling"
+  },
+  {
+    "title": "The Three-Cornered Alfalfa Hopper, Spissistilus festinus, Is a Vector of Grapevine Red Blotch Virus in Vineyards",
+    "authors": [
+      "Madison T. Flasco",
+      "Victoria Hoyle",
+      "Elizabeth J. Cieniewicz",
+      "Greg Loeb",
+      "Heather McLane",
+      "Keith Perry",
+      "Marc F. Fuchs"
+    ],
+    "summary": "This study confirms that Spissistilus festinus (three-cornered alfalfa hopper) is a vector of grapevine red blotch virus (GRBV) in vineyard settings, with transmission efficiency highest when fewer insects feed on restricted leaf areas, and demonstrates acquisition and transmission in both California and New York vineyards.",
+    "key_variables": [
+      "Spissistilus festinus population density",
+      "GRBV acquisition rate",
+      "GRBV transmission rate",
+      "feeding duration",
+      "tissue restriction (leaf vs. shoot)",
+      "geographic location (California, New York)",
+      "salivary gland infection status",
+      "gut clearing period",
+      "vine GRBV status (infected/asymptomatic vs. negative)"
+    ],
+    "relationships": [
+      "S. festinus acquires GRBV from infected grapevines (acquisition rate ~45%)",
+      "S. festinus transmits GRBV to healthy grapevines (transmission rate 3-10% with restricted leaf feeding)",
+      "Higher transmission occurs with fewer insects feeding on restricted leaf areas vs. entire shoots",
+      "GRBV is circulative and non-propagative in S. festinus",
+      "Transmission efficiency varies by geographic region (California vs. New York)"
+    ],
+    "id": "The Three-Cornered Alfalfa Hopper, Spissistilus festinus, Is a Vector of Grapevine Red Blotch Virus in Vineyards"
+  }
+]
